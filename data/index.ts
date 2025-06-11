@@ -1,5 +1,7 @@
 export const navItems = [
+  { name: "Home", link: "/" },
   { name: "About", link: "#about" },
+  { name: "AutoMech 2025", link: "/events" },
   { name: "Events", link: "#events" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
@@ -44,7 +46,7 @@ export const projects = [
     id: 1,
     title: "PitStop",
     des: "“PITSTOP Season 2” is an exclusive, intra-university event open only to students from Batch 22 and 23, presented by IUT Automobile Society- AUS. ",
-    img: "/p1.svg",
+    img: "/team.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
@@ -52,7 +54,7 @@ export const projects = [
     id: 2,
     title: "Ignition 2024",
     des: "Get ready for an action-packed experience featuring Sim Racing, exciting Game Segments, an exhilarating Quiz Challenge, and the reveal of the much-awaited Formula IUT car!",
-    img: "/p1.svg",
+    img: "/team.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -60,9 +62,9 @@ export const projects = [
     id: 3,
     title: "AutoMech 2025",
     des: "Are you an automobile geek? Get ready to fuel your passion for automobile and showcase your blaze through national automobile based event AutoMech!",
-    img: "/p1.svg",
+    img: "/team.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/events",
   },
 ];
 
