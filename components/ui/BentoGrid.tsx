@@ -1,8 +1,14 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+// Dynamically import lottie-react to avoid SSR issues
+const Lottie = dynamic(
+  () => import("lottie-react").then((mod) => mod.default),
+  {
+    ssr: false,
+  }
+);
 
 import { cn } from "@/lib/utils";
 import animationData from "@/data/confetti.json";
@@ -51,14 +57,7 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  const lottieStyle = { height: 200, width: 400 } as const;
 
   const handleCopy = () => {
     const text = "iutaus2023@gmail.com";
@@ -126,7 +125,12 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  style={lottieStyle}
+                />
               </div>
 
               <MagicButton

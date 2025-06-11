@@ -54,6 +54,9 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold mt-10">
+            IUT <span className="text-maroon">AUTOMOBILE</span> SOCIETY
+          </h1>
           <TextGenerateEffect
             words="Aspire to Accelerate"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
