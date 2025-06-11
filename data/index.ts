@@ -10,12 +10,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "About Us",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-3 lg:min-h-[30vh]",
     imgClassName: "w-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/team.png",
     spareImg: "",
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     des: "“PITSTOP Season 2” is an exclusive, intra-university event open only to students from Batch 22 and 23, presented by IUT Automobile Society- AUS. ",
     img: "/team.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/",
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ export const projects = [
     des: "Get ready for an action-packed experience featuring Sim Racing, exciting Game Segments, an exhilarating Quiz Challenge, and the reveal of the much-awaited Formula IUT car!",
     img: "/team.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/",
   },
   {
     id: 3,

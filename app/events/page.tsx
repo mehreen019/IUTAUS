@@ -28,7 +28,7 @@ const EventPage = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <FloatingNav navItems={navItems} />
-      <div className="relative h-[60vh] bg-gradient-to-r from-maroon to-maroon-dark overflow-hidden">
+      <div className="relative h-[80vh] bg-gradient-to-r from-maroon to-maroon-dark overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
@@ -47,11 +47,11 @@ const EventPage = () => {
             <div className="flex flex-wrap gap-6 text-lg">
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5" />
-                <span>March 15-16, 2025</span>
+                <span>August 15-16, 2025</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5" />
-                <span>Tech Convention Center</span>
+                <span>IUT, Gazipur</span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-5 h-5" />
@@ -173,9 +173,9 @@ const EventPage = () => {
             Ready to Join AutoMech 2025?
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Don't miss this opportunity to be part of the automotive engineering
-            revolution. Register now and secure your spot at the most
-            anticipated event of the year.
+            Don&apos;t miss this opportunity to be part of the automotive
+            engineering revolution. Register now and secure your spot at the
+            most anticipated event of the year.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
