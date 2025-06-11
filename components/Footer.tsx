@@ -17,7 +17,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> step forwards into the world of automobile greatness?
+          Ready to take <span className="text-maroon">your</span> step forwards
+          into the world of automobile greatness?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to us today!

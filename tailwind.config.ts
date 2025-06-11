@@ -29,19 +29,32 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
+          100: "#190003",
+          200: "rgba(40, 17, 25, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
+        },
+        maroon: {
+          DEFAULT: "#7B1E22",
+          light: "#FFE4E4",
+          dark: "#2B0A0D",
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#DDBECD",
+          200: "#D3C1C8",
         },
-        blue: {
-          "100": "#E4ECFF",
+        red: {
+          "100": "#FFE4E4",
+          "200": "#FFCCCC",
+          "300": "#FF9999",
+          "400": "#FF6666",
+          "500": "#FF3333",
+          "600": "#E60000",
+          "700": "#CC0000",
+          "800": "#990000",
+          "900": "#660000",
         },
-        purple: "#CBACF9",
+        crimson: "#F9ACAC",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -164,6 +177,7 @@ const config = {
   },
   plugins: [
     require("tailwindcss-animate"),
+    require("tailwind-scrollbar-hide"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(

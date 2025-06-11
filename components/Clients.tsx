@@ -10,7 +10,7 @@ const Clients = () => {
     <section>
       <h1 className="heading">
         Our
-        <span className="text-purple"> Sponsors</span>
+        <span className="text-maroon"> Sponsors</span>
       </h1>
 
       <div className="flex flex-col items-center">

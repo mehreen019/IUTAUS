@@ -21,7 +21,8 @@ export const gridItems = [
   {
     id: 2,
     title: "",
-    description: "IUTAUS is a student-led organization dedicated to fostering passion and knowledge in all aspects of the automotive industry. We provide a platform for students with diverse interests, from engineering and design to business and marketing, to connect, collaborate, and learn from each other and industry professionals. Join IUTAUS and drive your future.",
+    description:
+      "IUTAUS is a student-led organization dedicated to fostering passion and knowledge in all aspects of the automotive industry. We provide a platform for students with diverse interests, from engineering and design to business and marketing, to connect, collaborate, and learn from each other and industry professionals. Join IUTAUS and drive your future.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -59,14 +60,13 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AutoFest",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "AutoMech 2025",
+    des: "Are you an automobile geek? Get ready to fuel your passion for automobile and showcase your blaze through national automobile based event AutoMech!",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
 ];
-
 
 export const companies = [
   {
@@ -105,16 +105,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/facebook.svg",
-    link: "https://www.facebook.com/IUTAUS"
+    link: "https://www.facebook.com/IUTAUS",
   },
   {
     id: 2,
     img: "/instagram.svg",
-    link: "https://www.instagram.com/iut_aus/"
+    link: "https://www.instagram.com/iut_aus/",
   },
   {
     id: 3,
     img: "/youtube.svg",
-    link: "https://www.youtube.com/@formulaiut"
+    link: "https://www.youtube.com/@formulaiut",
   },
 ];
